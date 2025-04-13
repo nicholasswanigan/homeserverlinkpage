@@ -39,12 +39,12 @@ Here’s a breakdown of the services I’m currently using, all running in Docke
 
 Here are links to the Docker Compose files for each group of services:
 
-- [docker-media-stack](https://github.com/yourusername/docker-media-stack) – Plex 
-- [docker-simple-sql](https://github.com/yourusername/docker-media-stack) - MySQL
-- [docker-minecraft](https://github.com/yourusername/docker-minecraft) – Minecraft server 
-- [docker-file-storage](https://github.com/yourusername/docker-file-storage) – Storage & file 
-- [docker-home-automation](https://github.com/yourusername/docker-home-automation) – Home Assistant
-- [docker-webapp-services](https://github.com/yourusername/docker-web-vpn) – Nginx 
-- [docker-vpn](https://github.com/yourusername/docker-media-stack) - VPN
+- [docker-media-stack](https://github.com/nicholasswanigan/media-stack) – Plex 
+- [docker-simple-sql](https://github.com/nicholasswanigan/docker-simple-sql) - MySQL
+- [docker-minecraft](https://github.com/nicholasswanigan/minecraft-server) – Minecraft server 
+- [docker-file-storage](https://github.com/nicholasswanigan/file-storage) – Storage & file 
+- [docker-home-automation](https://github.com/nicholasswanigan/home-automation) – Home Assistant
+- [docker-webapp-services](https://github.com/nicholasswanigan/webapp-services) – Nginx 
+- [docker-vpn](https://github.com/nicholasswanigan/VPN) - VPN
 
 > **Note:** These repos contain `docker-compose.yml` files and `.env` templates to get everything running.
