@@ -13,8 +13,8 @@ My home server setup covers a variety of personal and family needs — media str
 ## ⚙️ Hardware & OS
 
 - **Operating System:** Windows (with WSL2 + Docker Desktop)
-- **Storage:** NVMe SSD (non-root drive) for Docker containers and volumes
-- **CPU/RAM:** [Insert your specs here, optional but helpful]
+- **Storage:** 4TB NVMe SSD (non-root drive) for Docker containers and volumes alongside 2x Seagate IronWolf 12TB HDD
+- **CPU/RAM:** AMD Ryzen 9 7900X / 2x CORSAIR VENGEANCE DDR5 RAM 32GB (2x16GB) 6000MHz
 
 ---
 
@@ -39,10 +39,12 @@ Here’s a breakdown of the services I’m currently using, all running in Docke
 
 Here are links to the Docker Compose files for each group of services:
 
-- [docker-media-stack](https://github.com/yourusername/docker-media-stack) – Plex, MySQL
-- [docker-minecraft](https://github.com/yourusername/docker-minecraft) – Minecraft server
-- [docker-file-storage](https://github.com/yourusername/docker-file-storage) – Storage & file sharing
+- [docker-media-stack](https://github.com/yourusername/docker-media-stack) – Plex 
+- [docker-simple-sql](https://github.com/yourusername/docker-media-stack) - MySQL
+- [docker-minecraft](https://github.com/yourusername/docker-minecraft) – Minecraft server 
+- [docker-file-storage](https://github.com/yourusername/docker-file-storage) – Storage & file 
 - [docker-home-automation](https://github.com/yourusername/docker-home-automation) – Home Assistant
-- [docker-web-vpn](https://github.com/yourusername/docker-web-vpn) – Nginx, VPN services
+- [docker-webapp-services](https://github.com/yourusername/docker-web-vpn) – Nginx 
+- [docker-vpn](https://github.com/yourusername/docker-media-stack) - VPN
 
 > **Note:** These repos contain `docker-compose.yml` files and `.env` templates to get everything running.
